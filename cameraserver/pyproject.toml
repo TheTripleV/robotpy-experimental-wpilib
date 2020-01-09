@@ -41,6 +41,9 @@ sources = []
 ".so" = ".so.3.4"
 ".dylib" = ".3.4.dylib"
 
+[tool.robotpy-build.wrappers."cameraserver._opencv".linkexts]
+".lib" = "344.lib"
+
 [tool.robotpy-build.metadata]
 name = "cameraserver"
 description = "Hacked up cameraserver stuff for 2019"
